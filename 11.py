@@ -1,9 +1,10 @@
 # Crie uma função que encontre e retorne o menor elemento de uma lista.
 
 def menor_ele(lista):
-    for i in lista:
-        print (menor)
-        if i < menor and menor != i:
+    l = len(lista)
+    print(l[1])
+    for i in range(l):
+        if l[i] < l[i+1]:
             menor = i
     return menor
 
